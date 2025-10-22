@@ -6,6 +6,7 @@ public class Belajar {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Masukkan nama Anda: ");
         String nama = scanner.nextLine();
-        System.out.println("Halo, Dunia!");
+        System.out.println("Halo, " + nama + "!");  
+
     }
 }
